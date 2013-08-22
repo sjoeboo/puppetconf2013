@@ -24,6 +24,30 @@ CA:
 	Per region CA?
 	Multicluster (we kind of do this)
 	
+
+	Cert chaining?
+	External CA is possible
 	
 Node classification @ scale:
-	 
+	ENC ENC ENC
+	Forman/puppet-dashboard
+	
+
+Packaging for masterless
+
+	librarian-masterless-packaging
+
+Distributed Runs
+	Run based on changes
+	mcollective/ssh/cron
+
+Deployment:
+	need a CI pipeline
+	lint and test
+	capistrano (code on github)
+
+	controlled releases! 
+	run puppet in nagios passive checks
+	have nagios monitor puppet runs. 
+
+	
