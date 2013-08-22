@@ -14,4 +14,7 @@ Thats kinda poor..
 
 in 3.3 (not out yet), cli flag --ordering manifest|random to set ordering IF relationships are not defined...
 
+Bonus
+
+`puppet describe`
 
