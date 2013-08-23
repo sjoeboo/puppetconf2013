@@ -43,4 +43,36 @@ filtering:
 
 	collectives, the most basic node grouping in mcollective.
 	nodes can be in multiple collectives. (compute, storage, cluster, access, service, global, holyoke/campus)
+	comma seperated string in cfg file (ie, can beconfiged via puppet dynamically)	
+
+	identity filtering. hostname, basically. 
+	mco ping -I node[23]
+
+	facts, provided by facter. 
+	mco inventory node01
+	mco ping -F ipaddress_eth0=10.242.54.[123]
+	facts.yaml = contains the facts for hosts, its how mcollective gets its listing of facts. 
+
+	cfg mgmt, can filter based on puppet classes. puppet + chef
+	mco ping -C httpd 
+
+	data filters
+	mco ping -S "process('redis-server').exists=true"
+	only responds if the process table has that. 
+	
+
+can use puppetdb for discovery
+
+https://github.com/ploubser/mcollective-puppetdb-discovery
+
+		
+its a framework, script/code/glue around/over it. 
+can output structured data (json)
+jgrep
+
+ruby hooks
+
+write custom applications (umount, mount)
+
+
 		
