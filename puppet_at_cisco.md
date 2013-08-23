@@ -31,4 +31,14 @@ heterogenious application stacks and mgmt of those stacks. no  "one solution"
 
 how do you eat an elephant? one bite at a time. 
 
+bundle modules together.
+ 
+role profile modules
 
+puppet librarian puppetfile
+
+cooperitive modules: loosly coupled modules, work together IF installed together, but can stand alone..
+
+push as much as possible out of rpm deps. put deps in puppet, more transparent. 4am proofing. 
+
+ 
