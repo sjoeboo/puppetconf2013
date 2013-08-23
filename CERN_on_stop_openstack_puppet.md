@@ -1,9 +1,9 @@
 
-270 oepnstack hypervisors
-4K vms
-300 users
-14 puppet masters
-6 foreman backend nodes
+* 270 oepnstack hypervisors
+* 4K vms
+* 300 users
+* 14 puppet masters
+* 6 foreman backend nodes
 
 Goals:
 ramp ups to 15K hypervisors
