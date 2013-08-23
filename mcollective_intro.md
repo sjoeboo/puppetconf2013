@@ -75,4 +75,6 @@ ruby hooks
 write custom applications (umount, mount)
 
 
+unlike fabric, mco is out of band of ssh/auth etc.
+
 		
